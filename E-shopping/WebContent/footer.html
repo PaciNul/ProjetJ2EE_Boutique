@@ -1,0 +1,31 @@
+<span class="date">
+<!-- Ce script permet d'afficher la date et l'heure du jour -->
+<SCRIPT LANGUAGE="JavaScript">
+var maintenant=new Date();
+var jour=maintenant.getDate();
+var mois=maintenant.getMonth()+1;
+var an=maintenant.getFullYear();
+var heure=maintenant.getHours();
+var minutes=maintenant.getMinutes();
+document.write("Nous sommes le ",jour,"/",mois,"/",an);
+document.write(" * Il est ",heure,"h",minutes,"m");
+</SCRIPT>
+</span>
+
+<span class="barre">||</span>
+<a href="copyright.jsp" onclick="window.open(this.href); return false;">Application réalisée dans le cadre d'un projet universitaire</a>
+<span class="barre">||</span> Youssouf <span class="barre">||</span> y.elouazzani95@gmail.com <span class="barre">||</span> Powered by <span class="barre">||</span> html/css & Java
+(SERVLET/JSP)
+
+<style>
+	.date
+	{
+		color : #008aff;
+		font-weight: bold;
+	}
+	.barre
+	{
+		color : #EDF7F2;
+		font-weight: bold;
+	}
+</style>
