@@ -90,6 +90,7 @@ a {
 
 #tab_nav li:hover {
 	background: #fff top left no-repeat;
+	border: 1px dashed #1473b0;
 }
 
 a:hover {
@@ -105,6 +106,14 @@ a:hover {
 	overflow: hidden;
 }
 
+input {
+	background-color: #fff;
+	padding: 0;
+	border: 0px solid #808080;
+	border-radius: 5px;
+	width: 200px;
+	height: 20px;
+}
 input[type=submit] {
 	border: 0px solid #808080;
 	border-radius: 5px;
@@ -123,7 +132,7 @@ input[type=submit]:hover, input[type=reset]:hover {
 
 .taille {
 	padding: 20px;
-	margin: 50px 0 0 100px;
+	margin: 50px 0 0 0;
 	width: 700px;
 	border-radius: 20px;
 	box-shadow: 1px 1px 30px #000;
@@ -192,9 +201,7 @@ footer {
 <!-- Cette page sert a administrer les produits (ajout/modifier/supprimer -->
 <body>
 	<div align="center">
-		<div class='cssmenu'>
 			<jsp:include page="menu.html"></jsp:include>
-		</div>
 		<%
 			String msg = request.getParameter("msg");
 			if (msg != null) {
@@ -203,6 +210,7 @@ footer {
 		<%
 			}
 		%>
+		<img alt="sac" src="menu_assets/images/admin2.png">
 		<div class="taille">
 			<fieldset>
 				<legend>Page d'administration des produits</legend>
@@ -226,22 +234,27 @@ footer {
 								<table class="trGauche">
 									<tr>
 										<td>ID Produit</td>
+										<td>:</td>
 										<td><input type="text" name="IPID"></td>
 									</tr>
 									<tr>
 										<td>Nom du produit</td>
+										<td>:</td>
 										<td><input type="text" name="IPname"></td>
 									</tr>
 									<tr>
 										<td>Quantité</td>
+										<td>:</td>
 										<td><input type="text" name="IPQuant"></td>
 									</tr>
 									<tr>
 										<td>Catégorie</td>
+										<td>:</td>
 										<td><input type="text" name="IPcat"></td>
 									</tr>
 									<tr>
 										<td>Prix</td>
+										<td>:</td>
 										<td><input type="text" name="IPprice"></td>
 									</tr>
 								</table>
@@ -262,22 +275,27 @@ footer {
 								<table class="trGauche">
 									<tr>
 										<td>ID Produit</td>
+										<td>:</td>
 										<td><input type="text" name="UPID"></td>
 									</tr>
 									<tr>
 										<td>Nom du produit</td>
+										<td>:</td>
 										<td><input type="text" name="UPname"></td>
 									</tr>
 									<tr>
 										<td>Quantité</td>
+										<td>:</td>
 										<td><input type="text" name="UPQuant"></td>
 									</tr>
 									<tr>
 										<td>Catégorie</td>
+										<td>:</td>
 										<td><input type="text" name="UPcat"></td>
 									</tr>
 									<tr>
 										<td>Prix</td>
+										<td>:</td>
 										<td><input type="text" name="UPprice"></td>
 									</tr>
 								</table>
@@ -296,7 +314,8 @@ footer {
 								<!-- Le produit sera supprimer en entrant son ID -->
 								<table class="trGauche">
 									<tr>
-										<td>Entrez l'ID du produit à supprimer</td>
+										<td>ID du produit à supprimer</td>
+										<td>:</td>
 										<td><input type="text" name="DPID"></td>
 									</tr>
 								</table>

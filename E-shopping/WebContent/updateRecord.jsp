@@ -49,7 +49,7 @@
 
 <html>
 <head>
-<meta http-equiv="REFRESH" content="5;url=/E-shopping/admin.jsp">
+<meta http-equiv="REFRESH" content="4;url=/E-shopping/admin.jsp">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Modifier un produit</title>
 <link href="menu_assets/styles.css" title="Défaut" rel="stylesheet"
@@ -74,7 +74,7 @@
 					<br>
 					<p id="parag">
 						Les données ont bien été modifiées<br> Vous allez être
-						redirigé vers la page précédente dans 5 secondes...
+						redirigé vers la page précédente dans 4 secondes...
 					</p>
 
 				</fieldset>

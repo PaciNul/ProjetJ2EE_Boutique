@@ -28,7 +28,6 @@ ul.haut li a {
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799',
 		endColorstr='#2989d8', GradientType=0); /* IE6-9 */
-	color: #1473b0;
 	color: #fff;
 	font-weight: bold;
 	padding: 10px 50px;
@@ -46,12 +45,16 @@ ul.haut li a:hover {
 	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a61473b0',
 		endColorstr='#00000000', GradientType=0); /* IE6-9 */
-	color: #1473b0;
+	color: #1a91df;
 }
 
+.sac
+{
+	
+}
 form {
 	padding: 20px;
-	margin: 50px 0 0 100px;
+	margin: 50px 0 0 0;
 	width: 550px;
 	border-radius: 20px;
 	box-shadow: 1px 1px 30px #000;
@@ -66,8 +69,8 @@ table.pdt {
 }
 
 table tr.trHaut {
-	background: #1473b0;
-	color: #fff;
+	background: #0d4a73;
+	color: #e5e5e5;
 	height: 50px;
 	
 }
@@ -75,15 +78,35 @@ table tr.trHaut {
 tr.trHaut td
 {
 	border-radius: 4px;
+	font-weight: bold;
+	text-decoration: underline;
 }
 tr.trGauche td
 {
 	border-radius: 4px;
 }
-
+#id 
+{
+	font-weight: bold;
+	font-style: italic;
+}
 .trGauche
 {
 	border-radius: 4px;
+}
+.trGauche td#achat:hover
+{
+	background-color: #223645;
+}
+td#achat a:hover
+{
+	color: #fff;
+	font-weight: bold;
+}
+#achat a
+{
+	color: #d9d9ff;
+	font-weight: bold;
 }
 
 table tr.trGauche {
@@ -119,7 +142,8 @@ input {
 	padding: 0;
 	border: 0px solid #808080;
 	border-radius: 5px;
-	width: 200px;
+	width: 300px;
+	height: 30px;
 }
 
 input[type=submit]:hover, input[type=reset]:hover {

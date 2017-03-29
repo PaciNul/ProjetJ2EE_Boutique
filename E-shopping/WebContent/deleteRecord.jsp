@@ -39,7 +39,7 @@
 %>
 <html>
 <head>
-<meta http-equiv="REFRESH" content="5;url=/E-shopping/admin.jsp">
+<meta http-equiv="REFRESH" content="4;url=/E-shopping/admin.jsp">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Produits supprimés</title>
 <link href="menu_assets/styles.css" title="Défaut" rel="stylesheet"
@@ -64,7 +64,7 @@
 					<br>
 					<p id="parag">
 						Le produit a bien été supprimé<br> Vous allez être redirigé
-						vers la page précédente dans 5 secondes...
+						vers la page précédente dans 4 secondes...
 					</p>
 
 				</fieldset>

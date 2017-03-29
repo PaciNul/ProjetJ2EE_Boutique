@@ -37,9 +37,12 @@ td {
 			<jsp:include page="menu.html"></jsp:include>
 	</div>
 	<div align="center">
+	
+		<img alt="sac" src="menu_assets/images/logoShop.png" width="500px" height="250px" >
+	
 	<form class="taille">
 		<fieldset>
-			<legend>Les produits présents dans la base de donnée</legend>
+			<legend>Liste des produits</legend>
 			<br>
 			<table class="pdt">
 				<tr class="trHaut">
@@ -56,13 +59,13 @@ td {
 					while (rsSelectRecord.next()) {
 				%>
 				<tr  class="trGauche">
-					<td><%=cnt%></td>
+					<td id="id"><%=cnt%></td>
 					<td bgcolor="#223645"><%=rsSelectRecord.getInt("PruductID")%></td>
 					<td><%=rsSelectRecord.getString("PruductName")%></td>
 					<td><%=rsSelectRecord.getInt("ProductQuant")%></td>
 					<td><%=rsSelectRecord.getString("ProductCAT")%></td>
 					<td><%=rsSelectRecord.getString("ProductPrice")%></td>
-					<td bgcolor="#98DB9C"><b><span lang="en-us"><a href="buy.jsp">Acheter</a></span></b></td>
+					<td id="achat"><a href="buy.jsp">Acheter</a></td>
 				<tr>
 					<%
 						cnt++; /// increment of counter

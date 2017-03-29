@@ -56,7 +56,7 @@
 
 <html>
 <head>
-<meta http-equiv="REFRESH" content="5;url=/E-shopping/index.jsp">
+<meta http-equiv="REFRESH" content="4;url=/E-shopping/index.jsp">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Produit commandé</title>
 <link href="menu_assets/styles.css" title="Défaut" rel="stylesheet"
@@ -81,7 +81,7 @@
 					<br>
 					<p id="parag">
 						Commande effectuée, merci de votre visite ! <br> Vous allez
-						être redirigé vers la liste des produits dans 5 secondes...
+						être redirigé vers la liste des produits dans 4 secondes...
 					</p>
 
 				</fieldset>

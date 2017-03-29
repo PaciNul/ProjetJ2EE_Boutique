@@ -39,6 +39,7 @@
 		onsubmit="javascript:return validate();">
 
 		<div align="center">
+		<img alt="sac" src="menu_assets/images/LogoConn.png">
 			<fieldset>
 				<legend>Connexion administrateur</legend>
 				<br>

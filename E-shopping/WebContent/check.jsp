@@ -69,7 +69,7 @@
 
 <html>
 <head>
-<meta http-equiv="REFRESH" content="5;url=/E-shopping/admin.jsp">
+<meta http-equiv="REFRESH" content="4;url=/E-shopping/admin.jsp">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Connexion</title>
 <link href="menu_assets/styles.css" title="Défaut" rel="stylesheet"
@@ -95,7 +95,7 @@
 				<legend>Vous êtes connecté</legend>
 				<br>
 				<p id="parag">
-					Vous allez être redirigé vers la page d'administration des produits dans 5 secondes...
+					Vous allez être redirigé vers la page d'administration des produits dans 4 secondes...
 				</p>
 				
 			</fieldset>

@@ -22,8 +22,10 @@
 		<jsp:include page="menu.html"></jsp:include>
 	<form name="frm" action="updatOrder.jsp">
 			<div align="center">
+			<img alt="sac" src="menu_assets/images/logoAchat.png">
+			<br><br>
 			<fieldset>
-			<legend>Produit commandés</legend>
+			<legend>Commandez un produit</legend>
 			<br>
 				<table class="trGauche">
 					<tr>
