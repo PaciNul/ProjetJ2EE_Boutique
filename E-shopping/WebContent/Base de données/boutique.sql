@@ -73,7 +73,8 @@ INSERT INTO `produits` (`PruductID`, `PruductName`, `ProductQuant`, `ProductCAT`
 (13, 'iPhone 7 32 Go', 23, 'Smartphone', '769 €'),
 (14, 'Apple McBook Air', 8, 'Ordinateur portable', '999,99'),
 (15, 'Microsoft 3500', 158, 'Souris', '28,99 €'),
-(16, 'Mercedes Classe B', 6, 'Voiture', '22999 €');
+(16, 'Mercedes Classe B', 6, 'Voiture', '22.999 €'),
+(17, 'Bugatti Chiron', 4, 'Voiture de sport', '1.200.000 €');
 
 -- --------------------------------------------------------
 
